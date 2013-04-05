@@ -6,7 +6,7 @@ import akka.sbt.AkkaKernelPlugin.{ Dist, outputDirectory, distJvmOptions}
 object DistBonesBuild extends Build {
   val Organization = "com.geidsvig"
   val Version      = "1.0"
-  val ScalaVersion = "2.10.0"
+  val ScalaVersion = "2.9.2"
 
   val appDependencies = Dependencies.distBonesKernel
   libraryDependencies ++= Dependencies.distBonesKernel
@@ -64,7 +64,7 @@ object Dependency {
   val akkaSlf4j         = "com.typesafe.akka" % "akka-slf4j"         % V.Akka
   val akkaRemote        = "com.typesafe.akka" % "akka-remote"        % V.Akka
 
-  val scalaTest         = "org.scalatest"     %% "scalatest"         % "2.0.M6-SNAP9" % "test"
+  val scalaTest         = "org.scalatest"     %% "scalatest"         % "1.8" % "test"
   
 }
 
