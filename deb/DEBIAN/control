@@ -1,0 +1,7 @@
+Package: geidsvig-distbones
+Version: 1.0.x 
+Maintainer: geidsvig
+Architecture: all
+Depends: openjdk-6-jre-headless
+Description: Example scala sbt dist app
+
